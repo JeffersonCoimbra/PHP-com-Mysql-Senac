@@ -1,33 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
 body{
     background-color: #AAAAAA;
     margin: 0;
 }
 
-/*Esse é um comentário CSS*/
+header{
+    display: block;
+    height: 400px;
+    text-align: center;
+    background-color:#000000;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
 h1{
     
     font-family: 'Roboto Slab', serif;
     font-size: 24px;
     color:#FFFFFF;
     padding-top: 10%;
-    text-shadow: #696969 px 2px;
+    text-shadow: #696969 2px;
 
 }
 
 menu-principal{
     width: 100%;
     background-color: #696969;
-    height: 50px;
+    height: 20px;
 
 }
 
 #inicio{
     display:block;
-    height: 300px;
-    background-color:#FFFFFF;
-    background-repeat: repeat;
+    height: 800px;
+    background-image:url(../img/Fundo.jpg);
+    background-repeat:no-repeat;
     
     
     
@@ -36,32 +48,47 @@ menu-principal{
 
 #elenco{
     display:block;
-    height: 300px;
-    background-color: burlywood;
+    height: 800px;
+    background-color: white;
+    background-image:url(../img/Fundo.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
 }
 
 #historia{
     display:block;
-    height: 300px;
-    background-color: yellow;
+    height: 800px;
+    background-image: url(../img/historia.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: white;
 
 }
 
 #titulos{
     display:block;
-    height: 400px;
-    background-color: pink;
+    height: 800px;
+    background-color: white;
+    background-image: url(../img/titulos.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 #estadio{
     display:block;
-    height: 300px;
-    background-image: url(../img/arena lotada.jpeg);
-     background-repeat: repeat;
+    height: 800px;
+    background-image: url(../img/Fundoestadio.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed
 }
-#outros{
+
+#Outros{
     display:block;
-    height: 300px;
-    background-color: rgb(0, 255, 98);
+    height: 800px;
+    background-image: url(../img/Fundo.jpg);
+    background-color: white
 
 }
 
@@ -73,17 +100,14 @@ h2{
    text-align:center;
 }
 
-
-header{
-    display: block;
-    height: 400px;
-    text-align: center;
-    background-color:#000000;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+h6{
+    padding-top:10px;
+    font-size: 18px;
+    font-weight: bold;
+   background-color: black;
+   text-align:center;
 }
+
 
 nav ul{
     display: inline-flex;
@@ -112,7 +136,8 @@ nav ul li a:hover{
 
 footer{
     height: 200px;
-    background-color: #613800;
+    background-color:white;
     color:#FFFFFF;
+    
+    
 }
-
